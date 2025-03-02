@@ -18,6 +18,13 @@ a{
     font-style:italic;
     font-family: 'Times New Roman', Times, serif , cursive;
 }
+
+
+p{
+   word-wrap: break-word;
+}
+
+/*Ground informations*/
 .ground{
     background-color: whitesmoke;
     position: absolute;
@@ -25,14 +32,8 @@ a{
     width: 100%;
     border: 0%;
     padding-top: 10%;
-    padding-bottom: 100%;
+    padding-bottom: 5%;
 }
-p{
-   word-wrap: break-word;
-}
-
-/*Ground informations*/
-
 #gText{
     color: rgb(172, 172, 172);
 }
@@ -57,3 +58,4 @@ p{
     from{transform: scale(1);}
     to{transform: scale(1.3);}
 }
+/* git page https://github.com/Blueeyesmagic/Portfolio_website*/

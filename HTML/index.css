@@ -30,8 +30,8 @@ h1{
     
 }
 .Mbuttons{
-    animation-name: strtbuttonAnim;
-    animation-duration: 2s;
+    /*animation-name: strtbuttonAnim;
+    animation-duration: 2s;*/
     font-size: larger;
     white-space: nowrap;
     flex: 1;
