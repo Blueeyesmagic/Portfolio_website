@@ -1,0 +1,59 @@
+h1{
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: underline;
+    font-size: 300%;
+    color: rgb(163, 163, 163);
+}
+body{
+    text-align: center;
+    padding: 10% 10% 10% 10%;
+    background-color: rgb(61, 61, 61);
+}
+a{
+    text-decoration: double;
+    color: rgb(255, 255, 255);
+    font-size: larger;
+    font: 1.5em Times;
+    font-style:italic;
+    font-family: 'Times New Roman', Times, serif , cursive;
+}
+.ground{
+    background-color: whitesmoke;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    border: 0%;
+    padding-top: 10%;
+    padding-bottom: 100%;
+}
+p{
+   word-wrap: break-word;
+}
+
+/*Ground informations*/
+
+#gText{
+    color: rgb(172, 172, 172);
+}
+.GButtons{
+    padding: 3%;
+    background-color: whitesmoke;
+    border: none;
+    background-size: cover;
+    
+}
+#discordBtn{
+    background-image: url(images/Discord_logo.png);
+}
+#instaBtn{
+    background-image: url(images/Instagram_icon.png);
+}
+.GButtons:hover{
+    transform: scale(1.3);
+    animation: SocialBtns 1s;
+}
+@keyframes SocialBtns{
+    from{transform: scale(1);}
+    to{transform: scale(1.3);}
+}

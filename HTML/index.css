@@ -1,0 +1,116 @@
+/*HEADINGS*/
+
+h1{
+    padding-top: 20%;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: underline;
+    font-size: 300%;
+    text-shadow: 15px 5px rgb(82, 82, 82);
+    animation-name: Mainhead;
+    animation-duration: 1s;
+}
+
+    /*Animations*/
+@keyframes Mainhead{
+    from{
+        text-shadow: 0px 0px black;
+    }
+
+    to{
+        text-shadow: 15px 5px rgb(82, 82, 82);
+    }
+}
+/*BUTTONS*/
+
+.buttongroup{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 40%;
+    
+}
+.Mbuttons{
+    animation-name: strtbuttonAnim;
+    animation-duration: 2s;
+    font-size: larger;
+    white-space: nowrap;
+    flex: 1;
+    text-align: center;
+    margin: 5%;
+    padding: 5% 20%;
+    /*background-image:url("images/5gum.png");*/
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 0%;
+    background-size: 100%;
+    border-style: none;
+}
+#left{
+    background-image:url("images/AboutMe.png");
+    
+    clip-path: polygon(0 0, 72% 0, 100% 100%, 28% 100%);
+    margin-right: -5%;
+}
+#middle{
+    background-image:url("images/Projects.png");
+    clip-path: polygon(0 0, 72% 0, 100% 100%, 28% 100%);
+    margin-left: -5%;
+    margin-right: -5%;
+}
+#right{
+    background-image:url("images/galery.png");
+    clip-path: polygon(0 0, 72% 0, 100% 100%, 28% 100%);
+    margin-left: -5%;
+}
+
+    /*Hover*/
+#left:hover{
+    background-image:url("images/AboutMe.png");
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);;
+    margin-right: -5%;
+    z-index: 999;
+}
+#middle:hover{
+    background-image:url("images/Projects.png");
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);;
+    margin-left: -5%;
+    margin-right: -5%;
+    z-index: 999;
+}
+#right:hover{
+    background-image:url("images/galery.png");
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);;
+    margin-left: -5%;
+    z-index: 999;
+}
+
+.Mbuttons:hover{
+    font-size: larger;
+    white-space: nowrap;
+    flex: 1;
+    text-align: center;
+    margin: 5%;
+    padding: 5% 20%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 0%;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+    animation-name: buttonAnim;
+    animation-duration: 2s;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+    transform:scale(1.3);
+}    
+    /*Animations*/
+@keyframes buttonAnim{
+    from{clip-path: polygon(0 0, 72% 0, 100% 100%, 28% 100%);
+    transform: scale(1);}
+    to {clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+    transform:scale(1.3);}
+}
+@keyframes strtbuttonAnim{
+    from {clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+    transform:scale(1.3);}
+    to{clip-path: polygon(0 0, 72% 0, 100% 100%, 28% 100%);
+    transform: scale(1);}
+
+}
