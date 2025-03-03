@@ -5,6 +5,9 @@ h1{
     font-size: 300%;
     color: rgb(163, 163, 163);
 }
+h2{
+    text-align: left;
+}
 body{
     text-align: center;
     padding: 10% 10% 10% 10%;
