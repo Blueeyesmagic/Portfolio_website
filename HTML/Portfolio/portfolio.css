@@ -1,0 +1,38 @@
+/*Project*/
+.project{
+    padding: 4% 10% 10% 10%;
+
+}
+.project p{
+    color: rgb(0, 0, 0);
+    text-align: left;
+}
+
+.project h1{
+    background-color: rgb(61, 61, 61);
+}
+
+.project h2{
+
+}
+.project h2 p{
+    
+}
+.project img{
+ width: 75%;  
+ margin-top: 2%;
+ border: thick solid rgb(26, 10, 43) ;
+ 
+}
+
+/*TeilBlock*/
+
+.Block{
+    background-color: white;
+   padding:1% 2% 1% 2%;
+
+}
+.project ol{
+    list-style-position: inside;
+    padding-left: 0;
+}

@@ -62,3 +62,23 @@ p{
     to{transform: scale(1.3);}
 }
 /* git page https://github.com/Blueeyesmagic/Portfolio_website*/
+
+/*information*/
+.info{
+    container-type: inline-size;
+    container-name: infobox;
+    padding: 2% 10% 10% 10%;
+    background-color: rgb(197, 197, 197);
+}
+.info p{
+    text-align: center;
+}
+.info h1{
+    text-align: left;
+    text-decoration: none;
+    color: black;
+    font-size: 200%;
+}
+@container infobox (min-width:400px ){
+    
+}
